@@ -11,6 +11,11 @@ html{
     font-family: "Poppins", Arial, sans-serif;
 }
 
+.btncenter {
+    text-align: center;
+    align-items: center;
+  }
+
 .background{
     width: 100%;
     height: 100vh;
@@ -33,6 +38,18 @@ html{
     padding: 5rem 10rem;
 }
 
+button{
+    width: 800px;
+    height: 180px;
+    background: transparent;
+    border:transparent;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+button:hover{
+    color: #fff
+}
 
 .center {
     margin: 0;
